@@ -326,10 +326,11 @@ public class adminMain extends reusable implements ActionListener {
         createStudentTable();
 
         // Frame configuration
-        this.setSize(1200, 700);
+        
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
         this.setLocationRelativeTo(null);
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
     /**

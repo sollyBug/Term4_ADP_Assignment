@@ -344,6 +344,7 @@ public class courseManage extends reusable implements ActionListener {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
         this.setLocationRelativeTo(null);
+        this.setResizable(false);
     }
 
     /**

@@ -9,8 +9,6 @@ import za.ac.cput.term4_adp_assignment.Worker.reusable;
 import java.util.List;
 import java.util.ArrayList;
 import za.ac.cput.term4_adp_assignment.Network_Handle.Client;
-import za.ac.cput.term4_adp_assignment.Student_Gui.registered;
-import za.ac.cput.term4_adp_assignment.authManager.Course;
 import za.ac.cput.term4_adp_assignment.authManager.manageSession;
 
 /**
@@ -337,6 +335,7 @@ public class enrollMan extends reusable implements ActionListener {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
         this.setLocationRelativeTo(null);
+        this.setResizable(false);
     }
 
     /**
